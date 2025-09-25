@@ -1,3 +1,4 @@
+"use client";
 export const defaultSnippet = `<html>
   <head>
     <title>HTML Sample</title>

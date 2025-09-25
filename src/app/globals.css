@@ -1,7 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  --background: url('../img/Hero-Background-notecode@2x.png');
+  --background-button: url('../img/Share.svg');
   --foreground: #171717;
 }
 
@@ -23,4 +24,8 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+#btnSubmit {
+  background: var(--background-button);
 }

@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Editor from "@monaco-editor/react";
 import { defaultSnippet } from "../constants/defaultSnippet.js";
+import Share from '../components/Share.jsx';
 
 export default function CodeEditor() {
   const [code, setCode] = useState(defaultSnippet);
@@ -34,8 +35,8 @@ export default function CodeEditor() {
             <option value="light">Light</option>
           </select>
         </div>
-        <button onClick={handleShare} className="px-4 py-2 bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg shadow-md hover:opacity-90 transition">
-          Share
+        <button onClick={handleShare} className="px-4 py-2 bg-sky-500/100 hover:bg-blue-60 rounded-lg shadow-md hover:opacity-90 transition">
+         Share
         </button>
       </div>
     </div>
